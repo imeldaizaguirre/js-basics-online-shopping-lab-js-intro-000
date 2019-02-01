@@ -62,5 +62,11 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if (cardNumber === cardNumber) {
+    cardNumber.parseInt(cardNumber);
+    cart.splice(0,cart.length);
+    return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}`
+
+  }
+
 }
